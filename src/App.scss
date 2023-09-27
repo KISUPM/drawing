@@ -1,0 +1,13 @@
+.charge {
+  animation: 1s chargeAnimation linear infinite;
+}
+
+@keyframes chargeAnimation {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
